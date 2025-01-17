@@ -1,0 +1,28 @@
+.button {
+    height: 5vh;
+    border-radius: 5px;
+    padding: 0.5vh 1.8vw;
+    transition: 0.3s;
+}
+
+.button-enabled {
+    color: whitesmoke;
+    background: var(--primary-color);
+    box-shadow: 0 0 5px rgba(55, 55, 55, 0.252);
+    cursor: pointer;
+}
+
+.button-enabled:hover {
+    box-shadow: 0 0 10px rgba(55, 55, 55, 0.5);
+}
+
+.button-enabled:active {
+    box-shadow: none;
+}
+
+.button-disabled {
+    box-shadow: none;
+    background: rgba(55, 55, 55, 0.252);
+    color: rgba(28, 28, 28, 0.3);
+    cursor: no-drop;
+}
